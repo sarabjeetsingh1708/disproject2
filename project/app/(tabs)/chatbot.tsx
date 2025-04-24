@@ -5,7 +5,7 @@ import { GoogleGenAI } from '@google/genai';  // Import the GoogleGenAI package
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // Replace this with your Gemini API key
-const GEMINI_API_KEY = 'AIzaSyD5DcvQMQycjS3hGeaRFnD7GET2ZKc40lw';  // Replace with your actual API key
+const GEMINI_API_KEY = '';  // Replace with your actual API key
 
 // Initialize the GoogleGenAI client
 const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
